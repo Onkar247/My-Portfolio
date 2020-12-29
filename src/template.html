@@ -4,14 +4,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
-
     <!-- Put here your site title -->
     <title>Onkar Chakrawar</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="javascript C++ Java python HTML React Node.js " content="Onkar, Onkar Chakrawar, Data Structures, Web Development" />
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="I'm an undergraduate student currently pursuing final year in 
+          Information Technology Engineering" content="Onkar Chakrawar | Developer" />
 
     <!-- Required librarys -->
     <link
@@ -22,28 +21,39 @@
     <script>
       ScrollReveal({ reset: false });
     </script>
-
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-
+      <nav class="navbar navbar-expand-lg site-navbar-target">
+        <div class="container">
+          <span class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav">
+            <i class="fa fa-bars" aria-hidden="true">&nbsp</i>Menu
+          </span>
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav nav ml-auto">
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#internships" class="nav-link">Internships</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
+    <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
           Hi, my name is <span class="text-color-main">Onkar Chakrawar</span>
           <br />
-          I'm the Developer you need.
+          I'm the Developer you're looking for
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a class="cta-btn cta-btn--hero" href="#about">Hire me</a>
         </p>
       </div>
-    </div>
+    </section>
     <!-- /END Hero Section -->
 
     <!-- **** About Section **** -->
@@ -100,6 +110,42 @@
             Projects
           </h2>
 
+           <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">WordBot</h3>
+                <div>
+                  <p class="mb-4">
+                    Developed a WhatsApp Chabot that helps to improve the English 
+                    vocabulary.
+                   
+                    It accepts a word and a related pre-defined query from the 
+                    user as an input and provides the user with the result based on that query.
+                    
+                    Integrated the Chabot with Merriam Webster’s thesaurus API 
+                    to fetch the results for the input word and processed the JSON 
+                    format text according to the user’s query to generate the output 
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/Onkar247/WordBot">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://github.com/Onkar247/WordBot" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/chatbot.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -120,17 +166,14 @@
                       their passwords in hash value and then stores it in the database.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Onkar247/Books2Door">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/Onkar247/Books2Door">
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://github.com/Onkar247/Books2Door" target="_blank">
                   <div data-tilt class="thumbnail rounded">
                     <img class="img-fluid" src="./assets/books.jpg" />
                   </div>
@@ -140,53 +183,10 @@
           </div>
           <!-- /END Project -->
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">WordBot</h3>
-                <div>
-                  <p class="mb-4">
-                    Developed a WhatsApp Chabot that helps to improve the English 
-                    vocabulary.
-                   
-                    It accepts a word and a related pre-defined query from the 
-                    user as an input and provides the user with the result based on that query.
-                    
-                    Integrated the Chabot with Merriam Webster’s thesaurus API 
-                    to fetch the results for the input word and processed the JSON 
-                    format text according to the user’s query to generate the output 
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Onkar247/WordBot">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/chatbot.jpg" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
     <!-- /END Projects Section -->
 
   <!-- **** Internships Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
+          <h2 class="section-title dark-blue-text" id="internships">
             Internships
           </h2>
 
@@ -197,25 +197,20 @@
                 <h3 class="project-wrapper__text-title">Application Development Intern</h3>
                 <div>
                   <p class="mb-4">
-                      
-                      
+                    Developed a chrome browser extension which generates an email 
+                    text summary and provides the same to users. Along with the 
+                    summary,it also extracts email ids, phone numbers and hyperlinks 
+                    that are mentioned in the email text. Achieved an overall accuracy 
+                    of 90% on well formatted emails.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/chrome_extension.jpg" />
+                </div>
               </div>
             </div>
           </div>
@@ -228,25 +223,22 @@
                 <h3 class="project-wrapper__text-title">Software Development Intern</h3>
                 <div>
                   <p class="mb-4">
-
-
+                    Developed a full-fledged website for I.T. faculty of our college to 
+                    ease the interface between the students and teachers to upload, 
+                    attempt and review the assignments. Worked on a student domain 
+                    through which a student can join courses and can access course 
+                    material and attempt assignments. This application also allows 
+                    the faculty to upload video lectures and issue certificate 
+                    of course completion to students.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/course.png" />
                   </div>
-                </a>
               </div>
             </div>
           </div>
@@ -259,24 +251,19 @@
                 <h3 class="project-wrapper__text-title">Application Development Intern</h3>
                 <div>
                   <p class="mb-4">
-                    
+                    Developed an application which automates the task of generating 
+                    practical attendance reports manually. It scans the attendance 
+                    sheet and populates the excel sheet according to the number of 
+                    signatures present in scanned sheet.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/attendance.jpg" />
                   </div>
-                </a>
               </div>
             </div>
           </div>
@@ -287,24 +274,34 @@
     <!-- /END Internships Section -->
 
 
-
-
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
         <h2 class="section-title">
           Contact
         </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            [Put your call to action here]
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:onkarhchakrawar@gmail.com"
-            >Call to Action</a
-          >
+        <div class="contact-wrapper row d-flex justify-content-center">
+          <div class="d-flex ftco-animate m-4">
+          	<div data-tilt class="align-self-stretch box text-center p-4 shadow">
+	          		<h1><i class="fa fa-phone" aria-hidden="true"></i></h1>
+		            <p class="contact-wrapper__text">
+                  <a href="tel://+919921901385" target="_blank" style="color:black"> 
+                    9921901385
+                  </a>
+                </p>
+	          </div>
+          </div>
+          <div class="d-flex ftco-animate m-4">
+          	<div data-tilt class="align-self-stretch box text-center p-4 shadow">
+	          		<h1><i class="fa fa-envelope" aria-hidden="true"></i></h1>
+		            <p class="contact-wrapper__text">
+                  <a href="mailto:onkarhchakrawar@gmail.com" target="_blank" style="color:black">
+                    onkarhchakrawar@gmail.com
+                  </a>
+                </p>
+	          </div>
+          </div>
+         
         </div>
       </div>
     </section>
@@ -317,7 +314,7 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a href="#!" target="_blank">
+          <a href="https://twitter.com/OnkarChakrawar" target="_blank">
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
           <a href="https://www.linkedin.com/in/onkar-chakrawar" target="_blank">
@@ -326,16 +323,17 @@
           <a href="https://github.com/Onkar247" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
+          <a href="mailto:onkarhchakrawar@gmail.com" target="_blank">
+            <i class="fa fa-envelope-o fa-inverse"></i>
+          </a>
         </div>
 
         <hr />
 
         <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by Jacobo Martínez
-        </p>
       </div>
     </footer>
     <!-- /END Footer Section -->
   </body>
+  
 </html>
