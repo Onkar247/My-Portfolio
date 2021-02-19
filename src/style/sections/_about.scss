@@ -51,7 +51,7 @@
         text-align: justify;
 
         @include respond(tab-port) {
-          text-align: left;
+          text-align: justify;
         }
         @include respond(tab-port-sm) {
           text-align: center;
