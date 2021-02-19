@@ -49,7 +49,6 @@
 
       &-text {
         text-align: justify;
-
         @include respond(tab-port) {
           text-align: justify;
         }
